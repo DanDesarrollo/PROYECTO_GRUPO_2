@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.cajadash{
+  position: center ;
+}
+
+
+.linkdeldas:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
+.linkdeldas{
+  color: #ffffff;
+  text-decoration: none;
+}
+.menu {
+  font-weight: 100;
+  background: #efefef;
+  width: 150px;
+  height: 100%;
+  padding-left: 50px;
+  margin-top: 74px;
+  position: fixed;
+  z-index: 100;
+  -webkit-box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  right: -130px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  color: #222;
+}
+.menu:hover, .menu:focus {
+  transform: translate3d(-130px, 0, 0);
+  animation-timing-function: 1s ease-in;
+}
+.menu .title {
+  top: 50%;
+  position: absolute;
+  top: 43%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  transform: rotate(270deg);
+  left: -10px;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.menu .nav {
+  position: absolute;
+  top: 20%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-weight: 100;
+}
+.menu .nav li {
+  padding-bottom: 50px;
+  list-style-type: none;
+}
+.menu .nav li a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+.menu .nav li a:hover {
+  color: #ffffff;
+}
+
+.intro {
+  position: absolute;
+  top: 30%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  font-size: 45px;
+  text-align: center;
+  font-style: italic;
+}
+.posicion-usu{ 
+  position: absolute;
+  bottom: -280px;
+  right:-5px;
+}
+/*menu*/
+
+.posicion-final{ 
+  position:relative;
+  bottom:-275px;
+  right:-5px;
+}
+
+.configuracionbtn{
+  position: relative;
+  bottom: -120px;
+  right: -5px;
+}
+
+.inicio{
+  position: relative;
+  bottom: -70px;
+}
+.prestamobtn{
+  position: relative;
+  bottom: -230px;
+  right: -5px;
+}
+
+.prestamo{
+  height: 30px;
+  width: 30px;
+}
+/*fin menu*/
+
+/* NAV */
+nav {
+  background:#238276;
+  
+}
+
+h3 {
+  color: #efefef;
+}
+
+img {
+  width: 50px;
+  height: auto;
+}
+
+.casa{
+  width: 18px;
+}
+
+.salir{
+  height: 30px;
+  width: 30px;
+}
+
+.usuarios{ 
+  height: 40px;
+  width: 40px;
+}
+
+.inicioicon{
+  width: 25px;
+  height: 25px;
+  bottom: 30px;
+}
+
+.configuracion{
+  width: 25px;
+  height: 25px;
+  bottom: 30px;
+}
+
+/* Apartado Prestamo */
+/* .titulo-prestamo{
+  margin: 65px;
+  margin-bottom: -40px;
+  margin-top: 10px;
+} */
+
+.config-prestamo:hover{
+color: #238276;
+}
